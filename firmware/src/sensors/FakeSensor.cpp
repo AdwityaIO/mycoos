@@ -1,3 +1,4 @@
+
 #include "FakeSensor.h"
 
 bool FakeSensor::begin()
@@ -5,9 +6,12 @@ bool FakeSensor::begin()
     return true;
 }
 
-SensorData FakeSensor::read(){
+SensorData FakeSensor::read()
+{
     SensorData data;
-    data.temperature = 24.5 ;
-    data.humidity = 87.0 ;
-    data.valid =true ;
+    data.temperature = 24.5;
+    data.humidity = 87.0;
+    data.valid = true;
+
+    return data;
 }
