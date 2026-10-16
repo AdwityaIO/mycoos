@@ -1,4 +1,4 @@
-#pragma oncw
+#pragma once
 
 struct SensorData {
     float temperature;
